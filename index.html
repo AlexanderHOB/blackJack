@@ -15,22 +15,26 @@
     <section class="container">
         <section class="actions">
             <button class="btn btn-start" id="btn-new">New Game</button>
-            <button class="btn btn-card" id="btn-card">Get Card</button>
-            <button class="btn btn-stop" id="btn-stop">Stop</button>
+            <button class="btn btn-card" id="btn-card" disabled>Get Card</button>
+            <button class="btn btn-stop" id="btn-stop" disabled>Stop</button>
         </section>
         <section class="players">
             <h3 class="player-name">Jugador 1 - <span>0</span> </h3>
-            <div class="players-cards">
+            <div class="divCartas">
                 
             </div>
         </section>
         <section class="players">
             <h3 class="computer-name">Computadora - <span>0</span> </h3>
-            <div class="computer-cards">
+            <div class="divCartas">
             </div>
         </section>
     </section>
-    <script defer src="assets/js/underscore-min.js"></script>
-    <script defer src="assets/js/juego.js"></script>
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/juego.js"></script>
+    <script>
+        console.log(myModule);
+        myModule.init();
+    </script>
 </body>
 </html>
