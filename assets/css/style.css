@@ -1,0 +1,81 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+    font-family: 'Bangers', cursive;
+    background-color: #04773b;
+    margin:0;
+    padding: 0;
+}
+.nav{
+    background-color: #1a1f16;
+    padding: 20px;
+    text-align: center;
+}
+.nav-title{
+    color:white;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #53A548 0px 0px 20px, #53A548 0px 0px 30px, #53A548 0px 0px 40px, #53A548 0px 0px 50px, #53A548 0px 0px 75px;
+    font-size: 1.2em;
+    animation: title-light 10s infinite;
+}
+@keyframes title-light{
+    from{
+        text-shadow: #292929 0px 0px 5px, #292929 0px 0px 10px, #292929 0px 0px 15px, #53A548 0px 0px 20px, #53A548 0px 0px 30px, #53A548 0px 0px 40px, #53A548 0px 0px 50px, #53A548 0px 0px 75px;
+    }
+    50%{
+        text-shadow: #292929 0px 0px 15px, #292929 0px 0px 20px, #292929 0px 0px 25px, #036016 0px 0px 30px, #036016 0px 0px 40px, #036016 0px 0px 50px, #036016 0px 0px 60px, #036016 0px 0px 85px;
+    }
+    to{
+        text-shadow: #292929 0px 0px 5px, #292929 0px 0px 10px, #292929 0px 0px 15px, #53A548 0px 0px 20px, #53A548 0px 0px 30px, #53A548 0px 0px 40px, #53A548 0px 0px 50px, #53A548 0px 0px 75px;
+    }
+}
+.container{
+    max-width: 80%;
+    margin:0 auto;
+}
+.actions{
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.btn{
+    font-family: 'Bangers', cursive;
+    color:#fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 20%;
+    border:none;
+    transition: .5s ease;
+    
+}
+.btn:disabled{
+    opacity: 0.8;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+.btn-start{
+    background:#48beff;
+    box-shadow: inset #1c4d68 0px -5px 5px;
+}
+.btn-stop{
+    background:#da2c38;
+    box-shadow: inset #a7212a 0px -5px 5px;
+}
+.btn-card{
+    background-color: #572e8a;
+    box-shadow: inset #3c1b63 0px -5px 5px;
+}
+.players-cards{
+    position: relative;
+    min-height: 250px;
+}
+.players-cards-image{
+    height: 250px;
+    margin-right: -75px;
+    transition: .5s ease;
+}
+.players-cards-image:hover{
+    transform: translateY(-15px);
+}
+
+

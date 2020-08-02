@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>  
+    <header>
+        <nav class="nav">
+            <h2 class="nav-title">Juego BlackJack</h2>
+        </nav>
+    </header>
+    <section class="container">
+        <section class="actions">
+            <button class="btn btn-start" id="btn-new">New Game</button>
+            <button class="btn btn-card" id="btn-card">Get Card</button>
+            <button class="btn btn-stop" id="btn-stop">Stop</button>
+        </section>
+        <section class="players">
+            <h3 class="player-name">Jugador 1 - <span>0</span> </h3>
+            <div class="players-cards">
+                
+            </div>
+        </section>
+        <section class="players">
+            <h3 class="computer-name">Computadora - <span>0</span> </h3>
+            <div class="computer-cards">
+            </div>
+        </section>
+    </section>
+    <script defer src="assets/js/underscore-min.js"></script>
+    <script defer src="assets/js/juego.js"></script>
+</body>
+</html>
